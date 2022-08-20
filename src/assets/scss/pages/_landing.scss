@@ -98,6 +98,12 @@
       .nav-item {
         .nav-link {
           color: var(--#{$variable-prefix}dark);
+
+          &:hover,
+          &.active,
+          &:focus {
+            color: $primary !important;
+          }
         }
       }
     }
