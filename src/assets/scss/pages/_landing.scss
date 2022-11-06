@@ -53,7 +53,7 @@
         font-weight: $font-weight-medium;
         transition: all 0.4s;
         font-family: $font-family-secondary;
-        color: $secondary !important;
+        color: var(--#{$variable-prefix}dark);
         padding: 14px;
 
         @media (max-width: 991.98px) {
@@ -104,7 +104,7 @@
               font-weight: $font-weight-medium;
               transition: all 0.4s;
               font-family: $font-family-secondary;
-              color: $primary !important;
+              color: var(--#{$variable-prefix}dark);
               padding: 14px;
 
               @media (max-width: 991.98px) {
@@ -114,7 +114,7 @@
               &:hover,
               &.active,
               &:focus {
-                color: $secondary !important;
+                color: $primary !important;
               }
             }
           }
@@ -131,7 +131,7 @@
           &:hover,
           &.active,
           &:focus {
-            color: $primary !important;
+            color: $secondary !important;
           }
         }
       }
